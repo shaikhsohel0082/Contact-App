@@ -1,0 +1,76 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.homebtn {
+    height: 40px;
+    width: 80px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 40px;
+    font-weight: bold;
+    background-color: rgb(216, 157, 157);
+    color: red;
+    border-radius: 10px 10px;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 20px;
+    height: fit-content;
+
+
+
+}
+
+tr {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.153);
+}
+
+tr:hover {
+    background-color: aquamarine !important;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(205, 161, 245);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(174, 109, 109, 0.153);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 0, 0, 0.153);
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delete {
+    color: red;
+}
+
+.edit {
+    color: rgb(35, 210, 35);
+}
