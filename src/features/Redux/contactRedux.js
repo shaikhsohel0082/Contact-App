@@ -128,7 +128,7 @@ const contactSlice = createSlice({
         state.error = action.error.message;
       })
       .addCase(addData.fulfilled, (state, action) => {
-        state.contactList.push(action.payload);
+        // state.contactList.push(action.payload);
         console.log("New contact has been added!");
       })
       .addCase(updateDataAsync.fulfilled, (state, action) => {
