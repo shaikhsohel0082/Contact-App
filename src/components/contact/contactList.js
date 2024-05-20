@@ -45,7 +45,6 @@ function ContactList() {
       <table>
         <thead>
           <tr>
-            <th>Id</th>
             <th>Name</th>
             <th>Phone Number</th>
             <th>Email</th>
@@ -57,7 +56,6 @@ function ContactList() {
         <tbody>
           {contacts.map((contact) => (
             <tr key={contact.id}>
-              <td>{contact.id}</td>
               <td>{contact.name}</td>
               <td>{contact.phone}</td>
               <td>{contact.email}</td>
