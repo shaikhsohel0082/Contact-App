@@ -26,7 +26,7 @@ function ContactList() {
 
   const handleDelete = (id) => {
     dispatch(deleteContact(id));
-    toast.delete("Contact has been deleted");
+    toast.success("Contact has been deleted");
   };
 
   if (status === "loading") {
