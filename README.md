@@ -9,6 +9,9 @@ The Contact App is a simple and intuitive application for managing your contacts
 - **Delete Contact**: Remove contacts that are no longer needed.
 - **View Contact List**: View a list of all your contacts in a clear and organized manner.
 
+# Hosted Url:
+https://contact-app-qli2.onrender.com/
+
 # Installation:
 
 1. Clone the repository.
