@@ -20,10 +20,12 @@ function ContactList() {
   const error = useSelector(errorSelector);
   useEffect(() => {
     if (status === "idle") {
+      //if status is idle it will fetch the data 
       dispatch(fetchContacts());
     }
   }, [status, dispatch]);
 
+  //handle delete function
   const handleDelete = (id) => {
     dispatch(deleteContact(id));
     toast.success("Contact has been deleted");

@@ -24,6 +24,7 @@ export default function UpdateContactForm() {
 
   const dispatch = useDispatch();
 
+  //hndle submit function
   function handleSubmit(e) {
     e.preventDefault();
     console.log(data);

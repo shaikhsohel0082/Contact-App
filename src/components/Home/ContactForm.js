@@ -27,6 +27,7 @@ export default function ContactForm() {
     }
   }, [stateData.length, data.id]);
 
+  //hndle submit function
   function handleSubmit(e) {
     e.preventDefault();
     dispatch(addContact(data));

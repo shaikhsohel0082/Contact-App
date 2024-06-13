@@ -7,6 +7,7 @@ import UpdateContactForm from "./components/contact/UpdateContact";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 function App() {
+  //creating router
   const router = createBrowserRouter([
     { path: "/", element: <Home /> },
     {
@@ -24,6 +25,7 @@ function App() {
   ]);
   return (
     <>
+      
       <RouterProvider router={router} />
       <ToastContainer
         position="top-right"
